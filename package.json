@@ -1,0 +1,17 @@
+{
+  "name": "kaiwedekind.dev",
+  "version": "0.0.1",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/KaiWedekind/kaiwedekind.dev.git",
+  "author": "Kai Wedekind <wedekind.kai@googlemail.com>",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5",
+    "vitepress": "^1.0.0-rc.32"
+  }
+}

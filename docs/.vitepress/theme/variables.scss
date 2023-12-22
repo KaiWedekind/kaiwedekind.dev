@@ -1,0 +1,23 @@
+:root {
+  --vp-home-hero-name-color: #6423DF;
+  --vp-button-brand-bg: hwb(261 14% 12%);
+  --vp-button-brand-hover-bg: #4c16b1;
+  --vp-c-brand-1: #4c16b1;
+}
+
+:root.dark {
+  --vp-c-brand-1: #23ffd0;
+}
+
+.VPNavBarTitle.has-sidebar {
+  --vp-c-text-1: #6423DF;
+}
+
+.dark .VPNavBarTitle.has-sidebar {
+  --vp-c-text-1: #23ffd0;
+}
+
+#local-search:focus-within button, a:focus-within, button:focus-visible {
+  outline: 1px solid var(--vp-c-brand-1);
+  outline-offset: 1px;
+}

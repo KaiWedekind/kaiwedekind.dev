@@ -1,0 +1,7 @@
+---
+outline: deep
+---
+
+# Firecracker
+
+Placeholder
