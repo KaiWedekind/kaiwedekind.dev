@@ -7,5 +7,10 @@ yarn
 
 ## Start project
 ```
-npm run docs:dev 
+npm run dev 
+```
+
+## Build project
+```
+npm run build 
 ```
