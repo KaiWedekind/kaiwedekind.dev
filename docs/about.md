@@ -28,8 +28,10 @@ const members = [
       About me
     </template>
     <template #lead>
-      I'm a developer and avid tech enthusiast. I'm well-versed in the intricacies of software development, constantly exploring new technologies and staying at the forefront of industry trends.
-I'm a dedicated advocate for continuous learning, always eager to expand my knowledge and explore the ever-evolving landscape of technology.
+      <small>
+        I'm a developer and avid tech enthusiast. I'm well-versed in the intricacies of software development, constantly exploring new technologies and staying at the forefront of industry trends.
+  I'm a dedicated advocate for continuous learning, always eager to expand my knowledge and explore the ever-evolving landscape of technology.
+      </small>
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers
