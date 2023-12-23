@@ -23,8 +23,23 @@ export default {
         text: 'Kubernetes',
         collapsed: true,
         items: [
-          { text: 'Getting Started', link: '/blog/kubernetes/getting-started/' },
-          { text: 'RKE2', link: '/blog/kubernetes/rke2/' },
+          {
+            text: 'Getting Started',
+            link: '/blog/kubernetes/getting-started/'
+          },
+          {
+            text: 'RKE2',
+            collapsed: true,
+            items: [
+              {
+                text: 'Overview',
+                link: '/blog/kubernetes/rke2/'
+              }, {
+                text: 'Setup Multi Node RKE2 v1.29.0 cluster with Canonical Multipass',
+                link: '/blog/kubernetes/rke2/setup-multi-node-rke2-v1.29.0-cluster-canonical-multipass'
+              }
+            ]
+          },
           { text: 'K3s', link: '/blog/kubernetes/k3s/' },
           { text: 'kubeadm', link: '/blog/kubernetes/kubeadm/' },
           { text: 'minikube', link: '/blog/kubernetes/minikube/' },
@@ -61,10 +76,10 @@ export default {
         ]
       },
       {
-        text: 'Code Examples',
+        text: 'Scripts',
         collapsed: true,
         items: [
-          { text: 'Overview', link: '/code-examples/' },
+          { text: 'Overview', link: '/scripts/' },
         ]
       },
       {

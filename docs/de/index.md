@@ -12,8 +12,8 @@ hero:
       text: Lesen beginnen
       link: /de/blog/
     - theme: alt
-      text: Code Beispiele
-      link: /de/code-examples/
+      text: Skripts
+      link: /de/scripts/
 
 features:
   - title: Kubernetes - RKE2

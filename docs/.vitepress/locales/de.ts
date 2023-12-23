@@ -60,10 +60,10 @@ export default {
         ]
       },
       {
-        text: 'Code Beispiele',
+        text: 'Skripts',
         collapsed: true,
         items: [
-          { text: 'Übersicht', link: '/de/code-examples/' },
+          { text: 'Übersicht', link: '/de/scripts/' },
         ]
       },
       {
