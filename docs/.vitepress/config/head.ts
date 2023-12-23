@@ -10,6 +10,7 @@ export default [
   ['meta', { name: "msapplication-TileColor", content: "#5bbad5"}],
   ['meta', { name: "msapplication-config", content: "/assets/favicons/browserconfig.xml"}],
   ['meta', { name: "theme-color", content: "#1B1B1F"}],
+  ['meta', { name: "google-adsense-account", content: "ca-pub-1411508080869298"}],
 
   /* Buy Me A Coffee */
   [
