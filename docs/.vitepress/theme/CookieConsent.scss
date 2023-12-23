@@ -15,7 +15,7 @@
   bottom: 0;
   z-index: 9999;
   width: 100%;
-  padding: 1rem 0;
+  padding: 1rem 1.5rem;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -29,14 +29,22 @@
   background: var(--cookie-consent-background);
 }
 
+.cookie-consent-container {
+  display: flex;
+  align-items: center;
+}
+
 .cookie-consent-message {
   max-width: 560px;
+  margin-right: 1rem;
 }
 
 .cookie-consent-buttons {
   display: flex;
   align-items: center;
   gap: 0.25rem;
+  flex: 1;
+  padding: 1rem 0;
 }
 
 .cookie-consent-button {
@@ -85,3 +93,8 @@
   text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+  .cookie-consent-container {
+    flex-wrap: wrap;
+  }
+}

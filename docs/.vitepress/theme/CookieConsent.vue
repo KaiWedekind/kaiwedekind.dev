@@ -99,15 +99,17 @@
 
 <template>
   <section v-if="visible" role="dialog" class="cookie-consent">
-    <span class="cookie-consent-message">
-      {{ text }}
-      <a role="button" href="https://www.cookiesandyou.com" target="_blank" class="cookie-consent-link">
-        {{ learnMoreText }}
-      </a>
-    </span>
-    <section class="cookie-consent-buttons">
-      <button class="cookie-consent-button cookie-consent-decline-button" @click="setCookieConsent('denied')">{{ declineText }}</button>
-      <button class="cookie-consent-button cookie-consent-accept-button" @click="setCookieConsent('granted')">{{ acceptText }}</button>
+    <section class="cookie-consent-container">
+      <span class="cookie-consent-message">
+        {{ text }}
+        <a role="button" href="https://www.cookiesandyou.com" target="_blank" class="cookie-consent-link">
+          {{ learnMoreText }}
+        </a>
+      </span>
+      <section class="cookie-consent-buttons">
+        <button class="cookie-consent-button cookie-consent-decline-button" @click="setCookieConsent('denied')">{{ declineText }}</button>
+        <button class="cookie-consent-button cookie-consent-accept-button" @click="setCookieConsent('granted')">{{ acceptText }}</button>
+      </section>
     </section>
   </section>
 </template>
